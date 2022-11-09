@@ -1,0 +1,15 @@
+{
+  "name": "S206-T1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:EduardoAraujoNF/S206-T1.git",
+  "author": "Eduardo Araujo <eduardo.araujonf@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "cypress:runner": "cypress open",
+    "cypress:execution": "cypress run --browser chrome"
+  },
+  "dependencies": {
+    "cypress": "^11.0.0"
+  }
+}
